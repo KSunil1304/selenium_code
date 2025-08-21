@@ -25,7 +25,7 @@ public class Dataupload {
 		driver.findElement(By.id("user_password")).sendKeys("Chakra@1");
 		driver.findElement(By.name("commit")).click();
 		Thread.sleep(1000);
-
+//dsfdsfdsf
 		// selecting the NanoHealth CDP
 		driver.findElement(By.xpath("(//a[text()='nanohealthplan'])[1]")).click();
 		Thread.sleep(3000);
