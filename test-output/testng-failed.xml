@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Pharmacy.Inventory_TestNG">
+        <methods>
+          <include name="Inventory_Details"/>
+          <include name="afterClass"/>
+          <include name="Request_To"/>
+          <include name="Transfer_to"/>
+          <include name="Login"/>
+          <include name="Inventoryreceivedwithoutinvoice"/>
+        </methods>
+      </class> <!-- Pharmacy.Inventory_TestNG -->
+      <class name="Pharmacy.Purchase_Order">
+        <methods>
+          <include name="login"/>
+          <include name="close"/>
+          <include name="po"/>
+        </methods>
+      </class> <!-- Pharmacy.Purchase_Order -->
+      <class name="Reports.ReportsTestNG">
+        <methods>
+          <include name="BrandwisereportGST"/>
+          <include name="DistributorwiseGSTreport"/>
+          <include name="DashboardReports"/>
+          <include name="Brandwisereport"/>
+          <include name="quit"/>
+          <include name="Patientwisereport"/>
+          <include name="AnnualGSTReport"/>
+          <include name="GSTReport"/>
+          <include name="Dueamountreport"/>
+          <include name="Monthlyreport"/>
+          <include name="Profitreport"/>
+          <include name="Expiryreport"/>
+          <include name="Dailyreport"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Reports.ReportsTestNG -->
+      <class name="Pharmacy.PharmacyReturnTestNG">
+        <methods>
+          <include name="Test"/>
+          <include name="Login"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Pharmacy.PharmacyReturnTestNG -->
+      <class name="Pharmacy.CreateOrder">
+        <methods>
+          <include name="Login"/>
+          <include name="afterClass"/>
+          <include name="AddPatient"/>
+        </methods>
+      </class> <!-- Pharmacy.CreateOrder -->
+      <class name="Pharmacy.Request_to">
+        <methods>
+          <include name="Requestto"/>
+        </methods>
+      </class> <!-- Pharmacy.Request_to -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
